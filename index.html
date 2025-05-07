@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>VotreFuturDev.com - Lilia Demirkol</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    .intro-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 60px 20px 30px 20px;
+      background-color: white;
+    }
+    .intro-box {
+      display: flex;
+      max-width: 1000px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .intro-photo {
+      flex: 1;
+      background-color: #000;
+    }
+    .intro-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .intro-details {
+      flex: 1;
+      padding: 30px;
+      background-color: #fff;
+    }
+    .intro-details h2 {
+      margin-top: 0;
+      color: #000;
+    }
+    .intro-details p {
+      margin: 10px 0;
+    }
+    .top-title {
+      text-align: center;
+      padding: 30px 20px 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #000;
+      background-color: white;
+    }
+    .footer-text {
+      background: white;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 10px;
+      font-size: 17px;
+      color: #444;
+      text-align: justify;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div><strong>VotreFuturDev.com</strong></div>
+  <nav>
+    <a href="competences.html">Compétences</a>
+    <a href="experience.html">Expériences</a>
+    <a href="diplomes.html">Diplômes</a>
+    <a href="langues.html">Langues</a>
+    <a href="loisirs.html">Loisirs</a>
+    <a href="projet.html">Projet</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="top-title">
+  Recherche d'une alternance en Développement Informatique
+</div>
+
+<div class="intro-container">
+  <div class="intro-box" style="height: 320px;">
+    <div class="intro-photo">
+      <img src="IMAGE CV.jpeg" alt="Lilia Demirkol">
+    </div>
+    <div class="intro-details">
+      <h2>DEMIRKOL LILIA</h2>
+      <p><strong>Téléphone :</strong> 06 95 06 25 37</p>
+      <p><strong>Email :</strong> demirkollilia@gmail.com</p>
+      <p><strong>Adresse :</strong> Erstein</p>
+      <p><strong>Permis :</strong> B + Véhiculée</p>
+      <p><strong>Lycée :</strong> René Cassin, Strasbourg</p>
+      <p><strong>Classe :</strong> Terminale STMG option SIG (Système d'Information de Gestion)</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer-text">
+  Actuellement en terminale STMG SIG, passionnée par l’informatique, je suis à la recherche d’une entreprise pour un contrat d’alternance dans ce domaine. Je suis en cours d’apprentissage du langage HTML et CSS, et je souhaite évoluer en informatique au sein de votre entreprise.
+</div>
+
+
+<div style="text-align:center; margin: 40px auto;">
+  <a href="CV-DEMIRKOL-LILIA.pdf" download style="background-color:#000; color:white; padding:12px 25px; border-radius:5px; text-decoration:none; font-weight:bold;">
+    Télécharger mon CV (PDF)
+  </a>
+</div>
+
+<section id="contact" class="contact-form" style="padding: 40px; background: white; max-width: 700px; margin: auto; border-radius: 10px;">
+  <h2 style="text-align:center; color:#000;">Me Contacter</h2>
+  <form action="https://formspree.io/f/xgvkyern" method="POST" method="POST" method="post">
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" required>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    <button type="submit" style="background:#000; color:white; padding:10px 20px; border:none; cursor:pointer; margin-top:10px;">Envoyer</button>
+  </form>
+</section>
+
+</body>
+</html>
